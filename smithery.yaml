@@ -1,0 +1,6 @@
+description: "Japan NTA corporate number registry lookup — company name, address, registration date from official data."
+repositoryUrl: https://github.com/atushi1841/japan-corporate-numbers-mcp
+startCommand:
+  type: stdio
+  command: echo
+  args: ["See .well-known/mcp.json for HTTP endpoint"]

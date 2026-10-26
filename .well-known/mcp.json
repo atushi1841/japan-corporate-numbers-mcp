@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "japan-corporate-numbers": {
+      "name": "Japan Corporate Numbers MCP — NTA Registry Lookup",
+      "type": "http",
+      "description": "Query Japan's National Tax Agency corporate number registry (法人番号). Returns company name, address, registration date, and legal entity status from official NTA data.",
+      "url": "https://fruitful-quintessence--japan-corporate-numbers.apify.actor/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_APIFY_API_TOKEN"
+      },
+      "pricing": "Pay-per-event: $0.002 per result",
+      "repo": "https://github.com/atushi1841/japan-corporate-numbers-mcp"
+    }
+  }
+}
